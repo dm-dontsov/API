@@ -247,7 +247,47 @@ wapclick.online уведомляет партнера об отписке або
 https://site.com/subscriptions?action=unsubscribe_report&service_id=1234&p_data=077dd9d0-690d-11e5-b533-0d1018f8ac82&sign=68e656b251e67e8358bef8483ab0d51c6619f3e7a1a9f0e75838d41ff368f728
 ````
 
-## 7. Контакты
+## 7. Список операторов.
+
+Список операторов в текстовом формате:
+
+```
+https://wapclick.mobi/api/op/list.txt
+````
+
+Список операторов в формате JSON:
+
+```
+https://wapclick.mobi/api/op/list.json
+````
+
+## 8. Cписок IP адресов оператора/операторов.
+
+Список IP адресов оператора в текстовом формате:
+
+```
+https://wapclick.mobi/api/ip/list.txt?operator=mts
+````
+
+Список IP адресов нескольких операторов (см. п.7) в текстовом формате:
+
+```
+https://wapclick.mobi/api/ip/list.txt?operator=mts,mf
+````
+
+Список IP адресов оператора в формате JSON:
+
+```
+https://wapclick.mobi/api/ip/list.json?operator=mts
+````
+
+Список IP адресов нескольких операторов (см. п.7) в формате JSON:
+
+```
+https://wapclick.mobi/api/ip/list.json?operator=mts,mf
+````
+
+## 9. Контакты
 
 С вопросами обращайтесь по почте support@wapclick.online
 
