@@ -88,7 +88,13 @@ https://wapclick.mobi/init/sync/[идентификатор подписки].js
 https://wapclick.mobi/init/sync/12187.json?ip=213.87.249.227&p_data=1&back_url=https%3A%2F%2Fsite.com%2Fcontent&uri_success=https%3A%2F%2Fsite.com%2Fsuccess%2F&uri_fail=https%3A%2F%2Fsite.com%2Ffail%2F
 ```
 
-В ответ сервис возвращает статус обработки запроса в JSON формате
+Примечание: Пример некорректного запроса
+
+```
+https://wapclick.mobi/init/sync/12187.json?ip=213.87.249.227&amp;p_data=1&amp;back_url=https%3A%2F%2Fsite.com%2Fcontent&amp;uri_success=https%3A%2F%2Fsite.com%2Fsuccess%2F&amp;uri_fail=https%3A%2F%2Fsite.com%2Ffail%2F
+```
+
+В ответ на корректный запрос сервис возвращает статус обработки запроса в JSON формате
 
 | Параметр | Тип | Описание | Пример
 | --- | --- | --- | ---
